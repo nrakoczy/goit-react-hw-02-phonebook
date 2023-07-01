@@ -1,0 +1,26 @@
+.contactList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.item{
+    font-size: 16px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.btnContactList {
+    cursor: pointer;
+    border: 2px solid gray;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btnContactList:active {
+    background-color: rgb(228, 228, 228);
+    color: rgb(237, 225, 225);
+    border: 2px solid rgb(38, 40, 44);
+}
