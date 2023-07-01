@@ -18,7 +18,7 @@ class Phonebook extends Component {
   addContact = contact => {
     if (
       this.state.contacts.some(
-        item => item.name.toLowerCase() === contact.name.toLowerCase(),
+        item => item.name.toLowerCase() === contact.name.toLowerCase()
       )
     ) {
       alert('This contact is already exist!! Try one more time, please!');
@@ -36,7 +36,7 @@ class Phonebook extends Component {
   };
   getFilteredContacts() {
     return this.state.contacts.filter(contact =>
-      contact.name.toLowerCase().includes(this.state.filter.toLowerCase()),
+      contact.name.toLowerCase().includes(this.state.filter.toLowerCase())
     );
   }
   onFilterHandleChange = filter => {

@@ -20,7 +20,7 @@
   margin-bottom: 15px;
 }
 .input:hover {
-  border-color: rgb(85, 49, 243);
+  border-color: rgb(43, 40, 224);
 }
 
 .button {
@@ -35,7 +35,7 @@
 }
 .button:hover {
   color: aliceblue;
-  background-color: blue;
+  background-color: rgb(166, 216, 249);
 }
 .wraper {
   margin-left: 100px;

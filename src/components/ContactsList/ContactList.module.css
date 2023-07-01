@@ -18,7 +18,7 @@
 }
 .button:hover {
   color: aliceblue;
-  background-color: blue;
+  background-color: rgb(166, 216, 249);
 }
 .name {
   padding: 5px 0px;
